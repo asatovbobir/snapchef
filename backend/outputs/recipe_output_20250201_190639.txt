@@ -1,0 +1,513 @@
+=== Recipe Generation Results ===
+
+Generated on: 2025-02-01 19:06:39
+Number of recipes: 6
+Recipe structure: ['title', 'description', 'imageURL', 'calories', 'carbs', 'fats', 'proteins', 'time_to_cook', 'ingredients', 'instructions']
+
+=== Detailed Recipes ===
+
+Recipe 1:
+Title: Spicy Cauliflower Chickpea Salad
+Description: A vibrant salad with chickpeas, cauliflower, and a spicy dressing.
+Image URL: 
+Calories: 250
+Macros: Carbs: 35, Fats: 10, Proteins: 15
+Time to Cook: 20 Min
+
+Ingredients:
+- {'name': 'cauliflower', 'quantity': '2 cups'}
+- {'name': 'chickpeas', 'quantity': '1 cup'}
+- {'name': 'green chili', 'quantity': '1'}
+- {'name': 'garlic', 'quantity': '2 cloves'}
+- {'name': 'turmeric', 'quantity': '1 tsp'}
+- {'name': 'cumin', 'quantity': '1 tsp'}
+- {'name': 'lemon', 'quantity': '1'}
+- {'name': 'mint', 'quantity': '1/4 cup'}
+- {'name': 'yogurt', 'quantity': '1/2 cup'}
+
+Instructions:
+1. {'step': 'Steam the cauliflower until tender.'}
+2. {'step': 'In a bowl, combine chickpeas, steamed cauliflower, minced garlic, and chopped green chili.'}
+3. {'step': 'Mix turmeric, cumin, lemon juice, and yogurt to create a dressing.'}
+4. {'step': 'Pour the dressing over the salad and toss gently.'}
+5. {'step': 'Garnish with chopped mint before serving.'}
+
+==================================================
+
+Recipe 2:
+Title: Cucumber Chickpea Yogurt Dip
+Description: A refreshing dip made with cucumbers, chickpeas, and yogurt.
+Image URL: 
+Calories: 150
+Macros: Carbs: 20, Fats: 5, Proteins: 8
+Time to Cook: 15 Min
+
+Ingredients:
+- {'name': 'cucumber', 'quantity': '1 cup'}
+- {'name': 'chickpeas', 'quantity': '1 cup'}
+- {'name': 'yogurt', 'quantity': '1/2 cup'}
+- {'name': 'garlic', 'quantity': '1 clove'}
+- {'name': 'lemon', 'quantity': '1'}
+- {'name': 'mint', 'quantity': '2 tbsp'}
+- {'name': 'red chili powder', 'quantity': '1 tsp'}
+
+Instructions:
+1. {'step': 'Finely chop cucumber and mint.'}
+2. {'step': 'In a bowl, mash chickpeas and mix with yogurt.'}
+3. {'step': 'Add lemon juice, minced garlic, cucumber, and mint.'}
+4. {'step': 'Sprinkle red chili powder before serving.'}
+5. {'step': 'Serve chilled with vegetable sticks.'}
+
+==================================================
+
+Recipe 3:
+Title: Turmeric Cauliflower Stir-fry
+Description: A quick stir-fry featuring cauliflower and spices.
+Image URL: 
+Calories: 200
+Macros: Carbs: 30, Fats: 7, Proteins: 5
+Time to Cook: 25 Min
+
+Ingredients:
+- {'name': 'cauliflower', 'quantity': '3 cups'}
+- {'name': 'garlic', 'quantity': '3 cloves'}
+- {'name': 'green chili', 'quantity': '1'}
+- {'name': 'turmeric', 'quantity': '1 tsp'}
+- {'name': 'red chili powder', 'quantity': '1/2 tsp'}
+- {'name': 'lemon', 'quantity': '1'}
+
+Instructions:
+1. {'step': 'Heat oil in a pan and sauté minced garlic.'}
+2. {'step': 'Add cauliflower florets and cook until slightly tender.'}
+3. {'step': 'Stir in turmeric, red chili powder, and chopped green chili.'}
+4. {'step': 'Cook for another 5 minutes until fully tender.'}
+5. {'step': 'Squeeze lemon juice before serving.'}
+
+==================================================
+
+Recipe 4:
+Title: Chickpeas and Cauliflower Curry
+Description: A hearty curry combining chickpeas and cauliflower with spices.
+Image URL: 
+Calories: 350
+Macros: Carbs: 40, Fats: 10, Proteins: 15
+Time to Cook: 40 Min
+
+Ingredients:
+- {'name': 'cauliflower', 'quantity': '2 cups'}
+- {'name': 'chickpeas', 'quantity': '2 cups'}
+- {'name': 'garlic', 'quantity': '3 cloves'}
+- {'name': 'turmeric', 'quantity': '1 tsp'}
+- {'name': 'red chili powder', 'quantity': '1 tsp'}
+- {'name': 'cumin', 'quantity': '1 tsp'}
+- {'name': 'lemon', 'quantity': '1'}
+- {'name': 'mint', 'quantity': '1/4 cup'}
+
+Instructions:
+1. {'step': 'In a pot, sauté minced garlic until fragrant.'}
+2. {'step': 'Add cauliflower and chickpeas; stir to combine.'}
+3. {'step': 'Mix in turmeric, red chili powder, and cumin.'}
+4. {'step': 'Add water to cover and simmer until cauliflower is tender.'}
+5. {'step': 'Stir in lemon juice and garnish with mint before serving.'}
+
+==================================================
+
+Recipe 5:
+Title: Minty Chickpea and Cucumber Salad
+Description: A light salad with cucumbers, chickpeas, and refreshing mint.
+Image URL: 
+Calories: 180
+Macros: Carbs: 30, Fats: 5, Proteins: 8
+Time to Cook: 10 Min
+
+Ingredients:
+- {'name': 'cucumber', 'quantity': '2 cups'}
+- {'name': 'chickpeas', 'quantity': '1 cup'}
+- {'name': 'mint', 'quantity': '1/2 cup'}
+- {'name': 'lemon', 'quantity': '1'}
+- {'name': 'red chili powder', 'quantity': '1/2 tsp'}
+
+Instructions:
+1. {'step': 'Dice the cucumber and chop the mint.'}
+2. {'step': 'In a bowl, combine chickpeas, cucumber, and mint.'}
+3. {'step': 'Squeeze fresh lemon juice over the mixture.'}
+4. {'step': 'Sprinkle red chili powder and toss gently before serving.'}
+
+==================================================
+
+Recipe 6:
+Title: Cauliflower and Chickpea Tacos
+Description: Flavorful tacos with seasoned cauliflower and chickpeas.
+Image URL: 
+Calories: 300
+Macros: Carbs: 40, Fats: 8, Proteins: 12
+Time to Cook: 30 Min
+
+Ingredients:
+- {'name': 'cauliflower', 'quantity': '2 cups'}
+- {'name': 'chickpeas', 'quantity': '1 cup'}
+- {'name': 'garlic', 'quantity': '1 clove'}
+- {'name': 'turmeric', 'quantity': '1 tsp'}
+- {'name': 'cumin', 'quantity': '1 tsp'}
+- {'name': 'lemon', 'quantity': '1'}
+- {'name': 'green chili', 'quantity': '1'}
+- {'name': 'yogurt', 'quantity': '1/2 cup'}
+
+Instructions:
+1. {'step': 'Roast cauliflower florets until golden.'}
+2. {'step': 'In a bowl, mix chickpeas with garlic, turmeric, and cumin.'}
+3. {'step': 'Warm tortillas and fill with roasted cauliflower and seasoned chickpeas.'}
+4. {'step': 'Top with yogurt and chopped green chili.'}
+5. {'step': 'Squeeze lemon juice over the tacos before serving.'}
+
+==================================================
+
+
+=== Raw JSON Data ===
+{
+  "recipes": [
+    {
+      "title": "Spicy Cauliflower Chickpea Salad",
+      "description": "A vibrant salad with chickpeas, cauliflower, and a spicy dressing.",
+      "imageURL": "",
+      "calories": 250,
+      "carbs": 35,
+      "fats": 10,
+      "proteins": 15,
+      "time_to_cook": "20 Min",
+      "ingredients": [
+        {
+          "name": "cauliflower",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "chickpeas",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "green chili",
+          "quantity": "1"
+        },
+        {
+          "name": "garlic",
+          "quantity": "2 cloves"
+        },
+        {
+          "name": "turmeric",
+          "quantity": "1 tsp"
+        },
+        {
+          "name": "cumin",
+          "quantity": "1 tsp"
+        },
+        {
+          "name": "lemon",
+          "quantity": "1"
+        },
+        {
+          "name": "mint",
+          "quantity": "1/4 cup"
+        },
+        {
+          "name": "yogurt",
+          "quantity": "1/2 cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "Steam the cauliflower until tender."
+        },
+        {
+          "step": "In a bowl, combine chickpeas, steamed cauliflower, minced garlic, and chopped green chili."
+        },
+        {
+          "step": "Mix turmeric, cumin, lemon juice, and yogurt to create a dressing."
+        },
+        {
+          "step": "Pour the dressing over the salad and toss gently."
+        },
+        {
+          "step": "Garnish with chopped mint before serving."
+        }
+      ]
+    },
+    {
+      "title": "Cucumber Chickpea Yogurt Dip",
+      "description": "A refreshing dip made with cucumbers, chickpeas, and yogurt.",
+      "imageURL": "",
+      "calories": 150,
+      "carbs": 20,
+      "fats": 5,
+      "proteins": 8,
+      "time_to_cook": "15 Min",
+      "ingredients": [
+        {
+          "name": "cucumber",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "chickpeas",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "yogurt",
+          "quantity": "1/2 cup"
+        },
+        {
+          "name": "garlic",
+          "quantity": "1 clove"
+        },
+        {
+          "name": "lemon",
+          "quantity": "1"
+        },
+        {
+          "name": "mint",
+          "quantity": "2 tbsp"
+        },
+        {
+          "name": "red chili powder",
+          "quantity": "1 tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "Finely chop cucumber and mint."
+        },
+        {
+          "step": "In a bowl, mash chickpeas and mix with yogurt."
+        },
+        {
+          "step": "Add lemon juice, minced garlic, cucumber, and mint."
+        },
+        {
+          "step": "Sprinkle red chili powder before serving."
+        },
+        {
+          "step": "Serve chilled with vegetable sticks."
+        }
+      ]
+    },
+    {
+      "title": "Turmeric Cauliflower Stir-fry",
+      "description": "A quick stir-fry featuring cauliflower and spices.",
+      "imageURL": "",
+      "calories": 200,
+      "carbs": 30,
+      "fats": 7,
+      "proteins": 5,
+      "time_to_cook": "25 Min",
+      "ingredients": [
+        {
+          "name": "cauliflower",
+          "quantity": "3 cups"
+        },
+        {
+          "name": "garlic",
+          "quantity": "3 cloves"
+        },
+        {
+          "name": "green chili",
+          "quantity": "1"
+        },
+        {
+          "name": "turmeric",
+          "quantity": "1 tsp"
+        },
+        {
+          "name": "red chili powder",
+          "quantity": "1/2 tsp"
+        },
+        {
+          "name": "lemon",
+          "quantity": "1"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "Heat oil in a pan and saut\u00e9 minced garlic."
+        },
+        {
+          "step": "Add cauliflower florets and cook until slightly tender."
+        },
+        {
+          "step": "Stir in turmeric, red chili powder, and chopped green chili."
+        },
+        {
+          "step": "Cook for another 5 minutes until fully tender."
+        },
+        {
+          "step": "Squeeze lemon juice before serving."
+        }
+      ]
+    },
+    {
+      "title": "Chickpeas and Cauliflower Curry",
+      "description": "A hearty curry combining chickpeas and cauliflower with spices.",
+      "imageURL": "",
+      "calories": 350,
+      "carbs": 40,
+      "fats": 10,
+      "proteins": 15,
+      "time_to_cook": "40 Min",
+      "ingredients": [
+        {
+          "name": "cauliflower",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "chickpeas",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "garlic",
+          "quantity": "3 cloves"
+        },
+        {
+          "name": "turmeric",
+          "quantity": "1 tsp"
+        },
+        {
+          "name": "red chili powder",
+          "quantity": "1 tsp"
+        },
+        {
+          "name": "cumin",
+          "quantity": "1 tsp"
+        },
+        {
+          "name": "lemon",
+          "quantity": "1"
+        },
+        {
+          "name": "mint",
+          "quantity": "1/4 cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "In a pot, saut\u00e9 minced garlic until fragrant."
+        },
+        {
+          "step": "Add cauliflower and chickpeas; stir to combine."
+        },
+        {
+          "step": "Mix in turmeric, red chili powder, and cumin."
+        },
+        {
+          "step": "Add water to cover and simmer until cauliflower is tender."
+        },
+        {
+          "step": "Stir in lemon juice and garnish with mint before serving."
+        }
+      ]
+    },
+    {
+      "title": "Minty Chickpea and Cucumber Salad",
+      "description": "A light salad with cucumbers, chickpeas, and refreshing mint.",
+      "imageURL": "",
+      "calories": 180,
+      "carbs": 30,
+      "fats": 5,
+      "proteins": 8,
+      "time_to_cook": "10 Min",
+      "ingredients": [
+        {
+          "name": "cucumber",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "chickpeas",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "mint",
+          "quantity": "1/2 cup"
+        },
+        {
+          "name": "lemon",
+          "quantity": "1"
+        },
+        {
+          "name": "red chili powder",
+          "quantity": "1/2 tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "Dice the cucumber and chop the mint."
+        },
+        {
+          "step": "In a bowl, combine chickpeas, cucumber, and mint."
+        },
+        {
+          "step": "Squeeze fresh lemon juice over the mixture."
+        },
+        {
+          "step": "Sprinkle red chili powder and toss gently before serving."
+        }
+      ]
+    },
+    {
+      "title": "Cauliflower and Chickpea Tacos",
+      "description": "Flavorful tacos with seasoned cauliflower and chickpeas.",
+      "imageURL": "",
+      "calories": 300,
+      "carbs": 40,
+      "fats": 8,
+      "proteins": 12,
+      "time_to_cook": "30 Min",
+      "ingredients": [
+        {
+          "name": "cauliflower",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "chickpeas",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "garlic",
+          "quantity": "1 clove"
+        },
+        {
+          "name": "turmeric",
+          "quantity": "1 tsp"
+        },
+        {
+          "name": "cumin",
+          "quantity": "1 tsp"
+        },
+        {
+          "name": "lemon",
+          "quantity": "1"
+        },
+        {
+          "name": "green chili",
+          "quantity": "1"
+        },
+        {
+          "name": "yogurt",
+          "quantity": "1/2 cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "Roast cauliflower florets until golden."
+        },
+        {
+          "step": "In a bowl, mix chickpeas with garlic, turmeric, and cumin."
+        },
+        {
+          "step": "Warm tortillas and fill with roasted cauliflower and seasoned chickpeas."
+        },
+        {
+          "step": "Top with yogurt and chopped green chili."
+        },
+        {
+          "step": "Squeeze lemon juice over the tacos before serving."
+        }
+      ]
+    }
+  ]
+}
