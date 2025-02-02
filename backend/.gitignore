@@ -1,0 +1,17 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Python virtual environment
+venv/
+
+# Environment variables
+.env
+
+# Output and generated files
+outputs/
+static/
+ingredients.jpg
+
+# System files
+.DS_Store

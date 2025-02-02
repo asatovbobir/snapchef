@@ -1,7 +1,9 @@
 from openai import OpenAI
-from pathlib import Path
 from app.config.settings import settings
 import json
+import logging
+
+logger = logging.getLogger(__name__)
 
 SYSTEM_PROMPT = """
 You are a professional chef and recipe generator. Analyze the provided ingredients and create SIX different recipes that exclusively use these ingredients. Follow these rules:
@@ -72,22 +74,39 @@ You are a professional chef and recipe generator. Analyze the provided ingredien
 def generate_recipes(image_b64: str) -> dict:
     client = OpenAI(api_key=settings.openai_api_key)
     
-    response = client.chat.completions.create(
-        model="gpt-4o-mini",
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {
-                "role": "user", 
-                "content": [
-                    {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{image_b64}"}},
-                    {"type": "text", "text": "Generate recipes based on these ingredients."}
-                ]
-            }
-        ],
-        response_format={"type": "json_object"}
-    )
-    
     try:
-        return json.loads(response.choices[0].message.content)
-    except json.JSONDecodeError:
+        logger.info("Sending request to OpenAI API")
+        response = client.chat.completions.create(
+            model="gpt-4-turbo",  # Verified working model name
+            messages=[
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {
+                    "role": "user", 
+                    "content": [
+                        {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{image_b64}"}},
+                        {"type": "text", "text": "Generate recipes based on these ingredients."}
+                    ]
+                }
+            ],
+            response_format={"type": "json_object"},
+            timeout=30  # Add timeout
+        )
+        
+        logger.info("Received OpenAI response")
+        response_content = response.choices[0].message.content
+        logger.debug(f"Raw response: {response_content}")
+        
+        recipes_data = json.loads(response_content)
+        
+        # Validate response structure
+        if not isinstance(recipes_data.get("recipes", None), list) or len(recipes_data["recipes"]) != 6:
+            raise ValueError("Invalid recipe format from OpenAI")
+            
+        return recipes_data
+    
+    except json.JSONDecodeError as e:
+        logger.error(f"JSON parse error: {str(e)}")
         raise ValueError("Failed to parse OpenAI response")
+    except Exception as e:
+        logger.error(f"OpenAI API error: {str(e)}")
+        raise

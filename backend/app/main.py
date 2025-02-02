@@ -2,9 +2,10 @@ from fastapi import FastAPI, File, UploadFile, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from app.services import openai_service, scraper_service
 from app.utils.image_utils import save_temp_image, image_to_base64
-from app.config import settings
+from app.config.settings import settings  # Correct import
 from pathlib import Path
 import uuid
+import traceback
 
 app = FastAPI()
 
@@ -19,6 +20,9 @@ app.add_middleware(
 @app.post("/api/generate-recipes")
 async def generate_recipes_endpoint(file: UploadFile = File(...)):
     try:
+        # Ensure the temp_image_dir exists
+        settings.temp_image_dir.mkdir(parents=True, exist_ok=True)
+        
         # Save temporary image
         temp_image = await save_temp_image(file, settings.temp_image_dir)
         
@@ -39,16 +43,19 @@ async def generate_recipes_endpoint(file: UploadFile = File(...)):
         return recipes_data
         
     except Exception as e:
+        error_details = traceback.format_exc()  # Captures full stack trace
+        logging.error(f"Recipe generation failed: {error_details}")
         raise HTTPException(
             status_code=500, 
             detail=f"Recipe generation failed: {str(e)}"
         )
+
 
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(
         "app.main:app",
         host="0.0.0.0",
-        port=settings.API_PORT,
+        port=settings.api_port,
         reload=True
     )
